@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  width: 500px;
+  margin: 30px auto;
+  border-top: solid 8px teal;
+  background-color: #daedf0;
+  box-shadow: 10px 10px 30px 1px #95c0c6;
+}
+.head-div {
+  background-color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+.form-div {
+  padding: 20px 20px;
+}
+.form-div input {
+  padding: 0 10px;
+  margin: 0 10px 20px 0;
+  width: 350px;
+  height: 30px;
+  font-size: 15px;
+  border: 0;
+}
+.todo-div {
+  padding: 0 20px 20px 20px;
+}
+.todo {
+  margin: 10px 0;
+  border-bottom: #fff dotted;
+  display: flex;
+}
+.todo-buttons {
+  margin-left: auto;
+}
+.todo button {
+  height: 30px;
+  vertical-align: sub;
+}
+.form-button {
+  margin: 0 10px 0 0;
+  height: 30px;
+ }
+.form-task-button {
+  height: 30px;
+}
